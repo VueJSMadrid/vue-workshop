@@ -1,0 +1,37 @@
+{
+  "name": "Codemotion Vue PWA",
+  "short_name": "Vue PWA",
+  "icons": [{
+      "src": "/static/windows-squarelogo-120-120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }, {
+      "src": "/static/android-launchericon-144-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/static/ios-appicon-152-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "/static/android-launchericon-192-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/static/firefox-general-256-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "/static/VueJSMad-384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }, {
+    "src": "/static/android-launchericon-512-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    }],
+  "start_url": "/",
+  "background_color": "#f2f3f5",
+  "display": "standalone",
+  "theme_color": "#f60"
+}

@@ -1,5 +1,5 @@
 const config = {
-  apiKey: 'YOUR_MARVEL_DEVELOPER_PUBLIC_KEY'
+  apiKey: '5c7ff0ba463615ba34684bc896075090'
 }
 
 export default config
