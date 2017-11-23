@@ -27,7 +27,7 @@ self.addEventListener('push', (event) => {
     data: data
   }
 
-  event.waitUntil(registration.showNotification(data.title, options))
+  event.waitUntil(registration.showNotification('Push notification', options))
 })
 
 self.addEventListener('notificationclick', function (event) {
