@@ -16,11 +16,11 @@ self.addEventListener('push', (event) => {
   //     text: event.data.text()
   //   }
   // }
-  const data = JSON.parse(event.data.text())
+  const data = event.data.text()
   const options = {
     // badge: '/static/img/icons/ico_android_app.png',
     icon: '/static/android-launchericon-512-512.png',
-    body: data.text,
+    body: data,
     actions: [
       {action: 'More', title: 'More'}
     ],
