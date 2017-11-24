@@ -3,6 +3,7 @@
     <characters-item v-for="character in characters" :key="character.name" :character="character">
     </characters-item>
   </div>
+  <div v-else="" class="ui bck"></div>
 </template>
 
 <script>
@@ -20,6 +21,14 @@ export default {
 </script>
 
 <style>
+  .bck {
+    margin-top: 3em;
+    width: 100%;
+    background: url('../assets/marvel_bck.jpeg') no-repeat;
+    background-size: cover;
+    height: 33em;
+    opacity: 0.8;
+  }
 .characters-list.cards {
   margin-top: 2em;
   justify-content: center;
