@@ -13,7 +13,7 @@
   export default {
     data () {
       return {
-        selectedSearch: ''
+        selectedSearch: 'Marvel Search'
       }
     },
     components: {
